@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cloud-Notes/static/css/main.42d40fde.css",
+    "main.js": "/Cloud-Notes/static/js/main.18b8884b.js",
+    "index.html": "/Cloud-Notes/index.html",
+    "main.42d40fde.css.map": "/Cloud-Notes/static/css/main.42d40fde.css.map",
+    "main.18b8884b.js.map": "/Cloud-Notes/static/js/main.18b8884b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42d40fde.css",
+    "static/js/main.18b8884b.js"
+  ]
+}
