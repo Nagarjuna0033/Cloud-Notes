@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-container {
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    color: white !important;
+}
+.form-container {
+    position: relative;
+    width: 35%;
+    border: 1px solid white;
+    display: inline-block;
+
+    padding: 3vh;
+    text-align: center;
+}
+
+input {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 1vh;
+    margin-top: 3vh;
+}
+
+.btns {
+    color: white;
+    padding: 3vh;
+}
+.tip {
+    margin-top: 3vh;
+}
+
+.tip > span {
+    margin-right: 1vh;
+}
+
+Link {
+    color: red;
+    text-decoration: none;
+}
+
+.log-btn button {
+    padding: 1vh;
+    width: 25vh;
+    margin-top: 3vh;
+}
+
+input {
+    width: 50vh;
+}
+
+.secure {
+    position: absolute;
+    top: 24vh;
+    right: 9vh;
+    cursor: pointer;
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+.password {
+    top: 33.5vh;
+}
+.cpassword {
+    top: 42.7vh;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex-direction: column;
+    }
+    .note-form {
+        width: 100% !important;
+    }
+
+    .note-display {
+        width: 100% !important;
+    }
+    .note-item {
+        width: 90% !important;
+    }
+
+    .form-container {
+        width: fit-content !important;
+    }
+    .secure {
+        top: 23vh;
+        right: 5vh;
+    }
+}
